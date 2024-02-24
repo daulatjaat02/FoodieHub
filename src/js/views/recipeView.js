@@ -105,7 +105,7 @@ class RecipeView {
             href="${this.#data.sourceUrl}"
             target="_blank"
           >
-            <span>Directions</span>
+            <span>Directions</span> 
             <svg class="search__icon">
               <use href="${icons}#icon-arrow-right"></use>
             </svg>
@@ -116,7 +116,7 @@ class RecipeView {
 
     #generateMarkupIngredient(ing) {
         return `
-    <li class="recipe__ingredient">
+    <li class="recipe__ingredient"> 
       <svg class="recipe__icon">
         <use href="${icons}#icon-check"></use>
       </svg>
